@@ -1,3 +1,26 @@
+# LOCAL SETUP:
+
+1. Lambda: build locally
+
+   ```bash
+   sam build
+   ```
+
+   Invoke locally
+
+   ```bash
+   sam local invoke -e events/event.json
+   ```
+
+2. React app.
+   ```bash
+   cd client
+   yarn # to install dependencies
+   yarn dev
+   ```
+
+================================================================
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
